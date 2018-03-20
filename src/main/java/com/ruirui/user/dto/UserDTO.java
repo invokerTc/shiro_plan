@@ -5,6 +5,8 @@ package com.ruirui.user.dto;
  */
 public class UserDTO {
     private String username;
+    private String password;
+    private String nickname;
     private int age;
     private String address;
 
@@ -14,6 +16,14 @@ public class UserDTO {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getNickname() {
+        return nickname;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
     public int getAge() {

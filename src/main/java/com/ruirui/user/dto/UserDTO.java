@@ -6,6 +6,15 @@ package com.ruirui.user.dto;
 public class UserDTO {
     private String username;
     private String password;
+    private int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     public String getUsername() {
 
